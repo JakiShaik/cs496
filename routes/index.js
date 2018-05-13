@@ -31,8 +31,7 @@ const url = oauth2Client.generateAuthUrl({
 });
 const plus = google.plus({
   version: 'v1',
-  auth: 'AIzaSyCEx6PKSEXtia14IddOF-4FVRfw6uQCVK0'
-  //'AIzaSyB2SLCjVVs9Em3yvnRDX-F_B57ZUOV1HUs' // specify your API key here
+  auth: '<API Key>'
 });
 
 /* GET home page. */
